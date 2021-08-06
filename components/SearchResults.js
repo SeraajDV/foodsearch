@@ -7,7 +7,7 @@ function SearchResults({ results }) {
         <div key={item.recipe.uri}>
           <h1>{item.recipe.label}</h1>
           <h3>Source: {item.recipe.source}</h3>
-          <a href={item.recipe.url} target="_blank" rel="noopener noreferrer">
+          <a href={item.recipe.url} target="_blank" rel="noreferrer">
             <h6>Click here for recipe</h6>
           </a>
           <br />
